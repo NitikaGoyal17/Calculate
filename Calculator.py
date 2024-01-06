@@ -64,7 +64,7 @@ b11.grid(row= 3, column= 2)
 b12= Button(calculator, text= '*', width= 5, height= 3, bd= 2, relief= 'solid', font='TimesnewRoman 14 bold', fg= 'black', bg= 'white', command=lambda:click_button("*"))
 b12.grid(row= 3, column= 3)
 
-b13= Button(calculator, text= '0', width= 5, height= 3, bd= 2, relief= 'solid', font='TimesnewRoman 14 bold', fg= 'black', bg= 'white')
+b13= Button(calculator, text= '0', width= 5, height= 3, bd= 2, relief= 'solid', font='TimesnewRoman 14 bold', fg= 'black', bg= 'white', command=lambda:click_button(0))
 b13.grid(row= 4, column= 0)
 
 b14= Button(calculator, text= 'C', width= 5, height= 3, bd= 2, relief= 'solid', font='TimesnewRoman 14 bold', fg= 'black', bg= 'white', command=clear_button)
